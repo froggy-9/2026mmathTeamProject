@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+
+# Cookie Clicker UI Scene Template
+# Unity 6000.3.10f1
+# Hierarchy only (no scripts)
+
+Canvas
+├─ Background
+├─ TopBar
+│  ├─ TitleText
+│  ├─ NewsTicker
+│  └─ MenuButtons
+├─ LeftPanel
+│  ├─ BakeryNameText
+│  ├─ CookieCountText
+│  ├─ CookiesPerSecondText
+│  ├─ BigCookieButton
+│  └─ UpgradeRing
+├─ CenterPanel
+│  └─ BuildingScrollView
+│      └─ Viewport
+│          └─ Content
+│              ├─ CursorRow
+│              ├─ GrandmaRow
+│              ├─ FarmRow
+│              ├─ MineRow
+│              ├─ FactoryRow
+│              ├─ BankRow
+│              ├─ TempleRow
+│              ├─ WizardTowerRow
+│              ├─ ShipmentRow
+│              ├─ AlchemyLabRow
+│              └─ PortalRow
+├─ RightPanel
+│  ├─ StoreTitle
+│  ├─ UpgradeGrid
+│  └─ ProductScrollView
+│      └─ Viewport
+│          └─ Content
+└─ PopupLayer
+    ├─ Tooltip
+    ├─ GoldenCookie
+    └─ Notification
+
+Layout:
+- LeftPanel: 30%
+- CenterPanel: 45%
+- RightPanel: 25%
+- TopBar: top full width
